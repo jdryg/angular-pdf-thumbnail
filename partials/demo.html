@@ -1,0 +1,22 @@
+<style>
+	.thumbnail_wrapper {
+		margin: 20px auto;
+		width: 300px;
+	}
+	
+	.thumbnail_wrapper pdf-thumbnail {
+		display: block;
+		width: 100%;
+	}
+	
+	.thumbnail_wrapper pdf-thumbnail img {
+		width: 100%;
+	}
+</style>
+
+<input id="file_input" type="file" onchange="angular.element(this).scope().onFileChanged()" accept=".pdf" />
+
+<div class="thumbnail_wrapper">
+	<pdf-thumbnail data-file="pdf.file" data-thumbnail="pdf.thumbnail_data" data-thumb-width="500"></pdf-thumbnail>
+</div>
+
