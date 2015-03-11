@@ -14,3 +14,10 @@ See the DemoController (js/controllers.js) and the demo.html partial for details
 You can style the pdf-thumbnail and the generated img tag using CSS. 
 
 See the demo.html partial for a simple example.
+
+## License
+Copyright © 2015 The owner of this repo.
+
+This work is free. You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2, as published by Sam Hocevar. See the COPYING file for more details.
+
+[WTFPL](http://www.wtfpl.net/)
